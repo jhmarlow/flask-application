@@ -1,0 +1,1 @@
+export GOOGLE_APPLICATION_CREDENTIALS=/Users/jacobmarlow/Documents/DataAnalytics/credentials/starlit-road-284109-af152246625b.json
