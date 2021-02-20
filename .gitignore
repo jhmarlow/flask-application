@@ -133,3 +133,6 @@ dmypy.json
 
 # sensitive Terraform info
 src/terraform/development/.terraform/*
+
+src/app/node_modules/*
+src/app/static/bower_components
