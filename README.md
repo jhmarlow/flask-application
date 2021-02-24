@@ -1,5 +1,6 @@
 # Project to Capture Work done on Google Cloud Platform
 
+See docs: https://jhmarlow.github.io
 
 ## Cloud Service Provider
 Google Cloud Platform (GCP)
