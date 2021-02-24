@@ -39,7 +39,7 @@ jobs:
       - name: Add .nojekyll to build folder
         run: |
           echo Add nojekyll file to allow formatting
-          touch ./docs/build/.nojekyll
+          sudo touch ./docs/build/.nojekyll
           
       - name: GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2.2.0
