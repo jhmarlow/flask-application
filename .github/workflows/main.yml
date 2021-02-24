@@ -38,7 +38,7 @@ jobs:
       - name: GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2.2.0
         with:  # GitHub repository where assets will be deployed (default current)
-          repo: jhmarlow.github.io # optional
+          repo: jhmarlow/jhmarlow.github.io # optional
           # Git branch where assets will be deployed
           target_branch: master  # optional, default is gh-pages
           # Build directory to deploy
