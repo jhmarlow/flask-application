@@ -34,3 +34,17 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          
+      - name: GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v2.2.0
+        with:  # GitHub repository where assets will be deployed (default current)
+          repo: jhmarlow.github.io # optional
+          # Git branch where assets will be deployed
+          target_branch: master  # optional, default is gh-pages
+          # Build directory to deploy
+          build_dir: ./docs
+          # The committer name and email address
+          # The author name and email address
+          author: jacob # optional
+          # Commit message
+          commit_message: updating docs # optional
