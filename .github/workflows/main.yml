@@ -25,15 +25,21 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # Runs a single command using the runners shell
-      - name: Build Sphinx docs
-        run: sphinx-build -b html ./docs/source ./docs/build
-
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+      - name: Sphinx Build
+        uses: ammaraskar/sphinx-action@0.4
+        with:
+          # The folder containing your sphinx docs.
+          docs-folder: # default is docs/
+          # The command used to build your documentation.
+          build-command: # optional, default is make html
+          # Run before the build command, you can use this to install system level dependencies, for example with "apt-get update -y && apt-get install -y perl"
+          # pre-build-command: # optional
           
       - name: GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2.2.0
@@ -42,7 +48,7 @@ jobs:
           # Git branch where assets will be deployed
           target_branch: master  # optional, default is gh-pages
           # Build directory to deploy
-          build_dir: ./docs/source
+          build_dir: ./docs/build
           # The committer name and email address
           # The author name and email address
           author: jacob # optional
