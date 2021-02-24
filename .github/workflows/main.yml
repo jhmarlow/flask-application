@@ -25,12 +25,6 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
-
       - name: Sphinx Build
         uses: ammaraskar/sphinx-action@0.4
         with:
@@ -40,6 +34,12 @@ jobs:
           build-command: "sphinx-build -b html source build" # optional, default is make html
           # Run before the build command, you can use this to install system level dependencies, for example with "apt-get update -y && apt-get install -y perl"
           # pre-build-command: # optional
+
+      # Runs a set of commands using the runners shell
+      - name: Add .nojekyll to build folder
+        run: |
+          echo Add nojekyll file to allow formatting
+          touch ./docs/build/.nojekyll
           
       - name: GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2.2.0

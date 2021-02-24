@@ -13,3 +13,6 @@ Managed through terraform
 # Setup
 ## Setting Credentials
 `export GOOGLE_APPLICATION_CREDENTIALS=/Users/jacobmarlow/Documents/DataAnalytics/credentials/starlit-road/orchestration.json`
+
+## Serve SPhinx Locally
+python3 -m http.server
