@@ -24,3 +24,9 @@ Managed through terraform
 
 ## Serve Sphinx Locally
 python3 -m http.server
+
+
+## Badges
+Generated using https://shields.io
+
+
