@@ -1,4 +1,4 @@
-# Project to Capture Work done on Google Cloud Platform
+# Google Cloud Platform Project
 
 ![example workflow](https://github.com/jhmarlow/google-cloud-platform-project/actions/workflows/main.yml/badge.svg)
 ![example workflow](https://img.shields.io/github/issues/jhmarlow/google-cloud-platform-project)
