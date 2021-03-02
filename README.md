@@ -1,4 +1,6 @@
 # Project to Capture Work done on Google Cloud Platform
+
+![example workflow](https://github.com/jhmarlow/google-cloud-platform-project/actions/workflows/main.yml/badge.svg)
 ![example workflow](https://img.shields.io/github/issues/jhmarlow/google-cloud-platform-project)
 ![example workflow](https://img.shields.io/github/forks/jhmarlow/google-cloud-platform-project)
 ![example workflow](https://img.shields.io/github/stars/jhmarlow/google-cloud-platform-project)
