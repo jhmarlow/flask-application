@@ -1,4 +1,9 @@
 # Project to Capture Work done on Google Cloud Platform
+![example workflow](https://img.shields.io/github/issues/jhmarlow/google-cloud-platform-project)
+![example workflow](https://img.shields.io/github/forks/jhmarlow/google-cloud-platform-project)
+![example workflow](https://img.shields.io/github/stars/jhmarlow/google-cloud-platform-project)
+![example workflow](https://img.shields.io/github/license/jhmarlow/google-cloud-platform-project)
+![example workflow](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FJacobMarlow19)
 
 See docs: https://jhmarlow.github.io
 
@@ -15,5 +20,5 @@ Managed through terraform
 ## Setting Credentials
 `export GOOGLE_APPLICATION_CREDENTIALS=/Users/jacobmarlow/Documents/DataAnalytics/credentials/starlit-road/orchestration.json`
 
-## Serve SPhinx Locally
+## Serve Sphinx Locally
 python3 -m http.server
