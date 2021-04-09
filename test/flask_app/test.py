@@ -5,3 +5,5 @@ from src.app import app
 #     response = c.get('/')
 #     assert response.data == b'Hello World!'
 #     assert response.status_code == 200
+
+def test_dummy
